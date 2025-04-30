@@ -1,3 +1,7 @@
+.home-page{
+    position: relative;
+}
+
 .navbar{
     height: 60px;
     background-color: #0F1111;
@@ -444,4 +448,95 @@
     position: absolute;
     left: 20px;
     top: 370px;
+}
+
+/* Appliance layout 2 */
+.appliances-layout-2{
+    width: 301px;
+    height: 420px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 440px;
+    left : 350px;
+    background-color: #FFFFFF;
+    border-color: #effafa;
+    border-style: solid;
+}
+
+.appliances-layout-3{
+    width: 301px;
+    height: 420px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 440px;
+    left : 680px;
+    background-color: #FFFFFF;
+    border-color: #effafa;
+    border-style: solid;
+}
+
+.appliances-layout-4{
+    width: 301px;
+    height: 420px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 440px;
+    left : 1010px;
+    background-color: #FFFFFF;
+    border-color: #effafa;
+    border-style: solid;
+}
+
+/* Recommendation */
+.recommendation{
+    height:140px;
+    position: relative;
+    bottom: 230px;
+    text-align: center;
+    border-top: 1px ridge rgba(17, 12, 12, 0.733);
+    border-bottom: 1px ridge rgba(17, 12, 12, 0.733);;
+}
+.recommendation-datas{
+
+    height: 100px;
+    padding-top: 10px;
+}
+.recommendation-text{
+    color: #0F1111;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.Sign-in-text{
+    width: 178px;
+    height: 29px;
+    text-align: center;
+    background-color: rgba(250, 192, 0, 0.932);
+    border-radius: 20px;
+}
+
+.new-customer-text{
+    margin-top: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+.start-here-text{
+    color: darkblue;
+}
+
+.back-to-top{
+    height: 49px;
+    background-color:#161d1dee ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 215px;
+}
+.back-to-top-text{
+   color: white;
 }
